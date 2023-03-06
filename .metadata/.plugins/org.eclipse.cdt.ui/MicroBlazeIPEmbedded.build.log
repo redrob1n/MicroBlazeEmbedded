@@ -1,4 +1,4 @@
-18:51:29 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
+20:05:01 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -13,9 +13,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/redrob1n/workspace/MicroBlazeIP_w
 'Invoking: MicroBlaze Print Size'
 mb-size MicroBlazeIPEmbedded.elf  |tee "MicroBlazeIPEmbedded.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6580	    304	   3116	  10000	   2710	MicroBlazeIPEmbedded.elf
+   6668	    304	   3116	  10088	   2768	MicroBlazeIPEmbedded.elf
 'Finished building: MicroBlazeIPEmbedded.elf.size'
 ' '
 
-18:51:29 Build Finished (took 485ms)
+20:05:02 Build Finished (took 419ms)
 

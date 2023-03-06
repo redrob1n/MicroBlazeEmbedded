@@ -26,3 +26,7 @@ platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBl
 bsp reload
 catch {bsp regenerate}
 platform generate
+platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
+platform generate
+platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
+platform generate

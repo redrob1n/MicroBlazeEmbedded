@@ -1,6 +1,274 @@
-Nothing to build in platform 'MicroBlazeIP_wrapper'
+20:04:13 **** Incremental Build of project MicroBlazeIP_wrapper ****
+buildplatform.bat 62883 MicroBlazeIP_wrapper no_domain_build 
+xsct% XSDB Server Channel: tcfchan#20
+C:/Xilinx/Vitis/2022.1/gnu/microblaze/nt
+Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
+make --no-print-directory seq_libs
 
-18:51:29 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
+"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/CustomPWM_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPWM_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/iic_v3_9/src"
+
+make -C microblaze_0/libsrc/iic_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/CustomPWM_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPWM_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra -fno-tree-loop-distribute-patterns"
+
+"Compiling CustomPWM..."
+
+cc1.exe: fatal error: *.c: Invalid argument
+compilation terminated.
+make[2]: *** [Makefile:18: libs] Error 1
+make[1]: *** [Makefile:46: microblaze_0/libsrc/CustomPWM_v1_0/src/make.libs] Error 2
+make: *** [Makefile:18: all] Error 2
+Failed to build  the bsp sources for domain - standalone_microblaze_0
+Failed to generate the platform.
+Reason: Failed to build  the bsp sources for domain - standalone_microblaze_0
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active MicroBlazeIP_wrapper; platform generate -domains}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2022.1\scripts\vitis\util\buildplatform.tcl" line 11)
+20:04:17 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/redrob1n/workspace/MicroBlazeIP_wrapper/export/MicroBlazeIP_wrapper/sw/MicroBlazeIP_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:1:10: fatal error: xparameters.h: No such file or directory
+    1 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:04:57 **** Build of project MicroBlazeIP_wrapper ****
+buildplatform.bat 62883 MicroBlazeIP_wrapper  
+XSDB Server Channel: tcfchan#21
+Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
+make --no-print-directory seq_libs
+
+"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/CustomPWM_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPWM_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/iic_v3_9/src"
+
+make -C microblaze_0/libsrc/iic_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/CustomPWM_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPWM_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra -fno-tree-loop-distribute-patterns"
+
+"Compiling CustomPWM..."
+
+CustomPWM_selftest.c: In function 'CUSTOMPWM_Reg_SelfTest':
+CustomPWM_selftest.c:52:65: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   52 |           if ( CUSTOMPWM_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+      |                                                                 ^~
+CustomPWM_selftest.c:36:13: warning: unused variable 'Index' [-Wunused-variable]
+   36 |         int Index;
+      |             ^~~~~
+mb-ar: creating ../../../lib/libxil.a
+'Finished building libraries sequentially.'
+
+make -j 22 --no-print-directory par_libs
+
+"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/CustomPWM_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPWM_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/iic_v3_9/src"
+
+make -C microblaze_0/libsrc/iic_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/iic_v3_9/src"
+
+make -C microblaze_0/libsrc/iic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+tra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+ll -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra -fno-tree-loop-distribute-patterns"
+
+microblaze_sleep.c:73:9: note: '#pragma message: For the sleep routines, assembly instructions are used'
+   73 | #pragma message ("For the sleep routines, assembly instructions are used")
+      |         ^~~~~~~
+"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+'Finished building libraries parallelly.'
+
+make --no-print-directory archive
+
+mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microb
+laze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.
+o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microbl
+aze_0/lib/xiic_multi_master.o microblaze_0/lib/xiic_sinit.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xb
+ram_g.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o micr
+oblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o 
+microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/microblaze_flush_cache_ext_range.o mic
+roblaze_0/lib/xiic_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xio.o microblaze_0/
+lib/xiic_g.o microblaze_0/lib/xiic_l.o microblaze_0/lib/_exit.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_intr.o microb
+laze_0/lib/xiic_slave.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/x
+il_testmem.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/xuartlite_
+sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze
+_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/micr
+oblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_en
+able_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_d
+cache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaz
+e_0/lib/xiic_dyn_master.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaz
+e_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xiic_options.o microblaze_0/lib/microb
+laze_update_icache.o microblaze_0/lib/xiic_master.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.
+o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xiic_stats.o microblaze_0/lib/microblaze_enabl
+e_interrupts.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/microblaze_enabl
+e_icache.o microblaze_0/lib/xiic.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xiic_selftest.o microblaze_0/lib/fcntl.o micr
+oblaze_0/lib/xgpio_selftest.o
+
+'Finished building libraries'
+
+20:05:01 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -15,9 +283,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/redrob1n/workspace/MicroBlazeIP_w
 'Invoking: MicroBlaze Print Size'
 mb-size MicroBlazeIPEmbedded.elf  |tee "MicroBlazeIPEmbedded.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6580	    304	   3116	  10000	   2710	MicroBlazeIPEmbedded.elf
+   6668	    304	   3116	  10088	   2768	MicroBlazeIPEmbedded.elf
 'Finished building: MicroBlazeIPEmbedded.elf.size'
 ' '
-18:51:29 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded_system ****
+20:05:02 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
