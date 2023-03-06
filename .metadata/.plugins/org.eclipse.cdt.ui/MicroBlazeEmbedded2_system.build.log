@@ -1,0 +1,8 @@
+18:14:56 **** Clean-only build of configuration Debug for project MicroBlazeEmbedded2_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+18:14:56 Build Finished (took 103ms)
+

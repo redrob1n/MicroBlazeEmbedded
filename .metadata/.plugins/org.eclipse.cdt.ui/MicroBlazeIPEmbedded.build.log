@@ -1,0 +1,21 @@
+18:51:29 **** Incremental Build of configuration Debug for project MicroBlazeIPEmbedded ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/redrob1n/workspace/MicroBlazeIP_wrapper/export/MicroBlazeIP_wrapper/sw/MicroBlazeIP_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: MicroBlazeIPEmbedded.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/redrob1n/workspace/MicroBlazeIP_wrapper/export/MicroBlazeIP_wrapper/sw/MicroBlazeIP_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MicroBlazeIPEmbedded.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MicroBlazeIPEmbedded.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size MicroBlazeIPEmbedded.elf  |tee "MicroBlazeIPEmbedded.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6580	    304	   3116	  10000	   2710	MicroBlazeIPEmbedded.elf
+'Finished building: MicroBlazeIPEmbedded.elf.size'
+' '
+
+18:51:29 Build Finished (took 485ms)
+

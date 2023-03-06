@@ -1,0 +1,322 @@
+!SESSION 2023-03-05 18:16:20.255 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\redrob1n\workspace\.metadata\.bak_0.log
+Created Time: 2023-03-05 18:52:45.132
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.132
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.132
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-03-05 18:52:45.134
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.147
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.148
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.262
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.263
+!MESSAGE XSCT Command: [version -server], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.265
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.1]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.265
+!MESSAGE XSCT Command: [version], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.265
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.1.0
+SW Build 303 on 2022-04-13-17:42:48
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.266
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.270
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.270
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.286
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.286
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.291
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.291
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.307
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.307
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.312
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.312
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.327
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.328
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.333
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.333
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.348
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.349
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.355
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.371
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.371
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty A7-100T 210319B4A53FA" && level == 0}], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.387
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty A7-100T 210319B4A53FA" && level == 0}], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.387
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.388
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.399
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.413
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.413
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.429
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.430
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B4A53FA-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.459
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B4A53FA-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:45.460
+!MESSAGE XSCT Command: [fpga -file C:/Users/redrob1n/workspace/MicroBlazeIPEmbedded/_ide/bitstream/MicroBlazeIP_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.650
+!MESSAGE XSCT command with result: [fpga -file C:/Users/redrob1n/workspace/MicroBlazeIPEmbedded/_ide/bitstream/MicroBlazeIP_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.668
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.683
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.683
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/redrob1n/workspace/MicroBlazeIP_wrapper/export/MicroBlazeIP_wrapper/hw/MicroBlazeIP_wrapper.xsa -regs], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.692
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/redrob1n/workspace/MicroBlazeIP_wrapper/export/MicroBlazeIP_wrapper/hw/MicroBlazeIP_wrapper.xsa -regs], Result: [null, MicroBlazeIP_wrapper_14]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.692
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.693
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.693
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.708
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.709
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.713
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:47.713
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:48.677
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.716
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.717
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.719
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.720
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.745
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.745
+!MESSAGE XSCT Command: [dow C:/Users/redrob1n/workspace/MicroBlazeIPEmbedded/Debug/MicroBlazeIPEmbedded.elf], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.750
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.751
+!MESSAGE XSCT Command: [version -server], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.810
+!MESSAGE XSCT command with result: [dow C:/Users/redrob1n/workspace/MicroBlazeIPEmbedded/Debug/MicroBlazeIPEmbedded.elf], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.811
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.1]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.811
+!MESSAGE XSCT Command: [version], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.812
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.1.0
+SW Build 303 on 2022-04-13-17:42:48
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.812
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.816
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.817
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.844
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.845
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.859
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.860
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.860
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.875
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.876
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.889
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.889
+!MESSAGE XSCT Command: [con], Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.894
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty A7-100T 210319B4A53FA]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.894
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.904
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-19: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.908
+!MESSAGE XSCT Command: [disconnect tcfchan#12], Thread: Thread-391
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.921
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B4A53FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.921
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.922
+!MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-391
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-03-05 18:52:50.922
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [{Format=Invalid target. Use "connect" command to connect to hw_server/TCF agent, Time=1678063970922, Code=1}, ]. Thread: Worker-28: Launching Debugger_MicroBlazeIPEmbedded-GDB

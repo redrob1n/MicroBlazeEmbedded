@@ -1,0 +1,7 @@
+18:14:56 **** Clean-only build of configuration Debug for project MicroBlazeEmbedded2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  MicroBlazeEmbedded2.elf.size  MicroBlazeEmbedded2.elf
+' '
+
+18:14:56 Build Finished (took 105ms)
+
