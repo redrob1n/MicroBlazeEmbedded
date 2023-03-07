@@ -67,7 +67,7 @@
                                     								
                                 </option>
                                 								
-                                <option id="xilinx.gnu.compiler.dircategory.includes.844989274" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" useByScannerDiscovery="false" valueType="includePath"/>
+                                <option id="xilinx.gnu.compiler.dircategory.includes.844989274" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" useByScannerDiscovery="false"/>
                                 								
                                 <inputType id="xilinx.gnu.compiler.input.248133496" name="C source files" superClass="xilinx.gnu.compiler.input"/>
                                 							

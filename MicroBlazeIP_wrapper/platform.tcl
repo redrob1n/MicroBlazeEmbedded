@@ -30,3 +30,11 @@ platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBl
 platform generate
 platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
 platform generate
+platform active {MicroBlazeIP_wrapper}
+platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
+platform generate
+platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
+platform generate
+platform active {MicroBlazeIP_wrapper}
+platform config -updatehw {C:/Users/redrob1n/VivadoProjects/MicroBlazeIP/MicroBlazeIP_wrapper.xsa}
+platform generate
